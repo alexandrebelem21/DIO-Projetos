@@ -4,7 +4,7 @@ let pulando = false;
 let posicao = 0;
 
 function handleKeyUp(event) {
-    if (event.keyCode === 32) {
+    if (event.keyCode === 32 || TouchEvent (true) ) {
         if(!pulando){
         pulo();
         }
